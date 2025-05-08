@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: BrigendsExpanded;
+    src: url(assets/fonts/BrigendsExpanded.otf);
+}
+
+input[type='color'] {
+    -webkit-appearance: none;
+    background-color: transparent;
+}
+
+input[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type='color']::-webkit-color-swatch {
+    border: none;
+    border-radius: 34px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+input[type='range'] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ffffff29;
+    width: 100%;
+    border-radius: 3px;
+    vertical-align: bottom;
+    margin: 0;
+    height: 2px;
+    cursor: pointer;
+    transition: all ease-in 0.25s;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    position: relative;
+    width: 8px;
+    height: 8px;
+    z-index: 100;
+    background-color: #00cc6a;
+    border-radius: 100%;
+}
+
+input[type='range']::-moz-range-thumb {
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    position: relative;
+    width: 4px;
+    height: 15px;
+    background-color: rgb(255, 79, 79);
+}
